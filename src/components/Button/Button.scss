@@ -1,0 +1,31 @@
+@import '../../scss/variables';
+
+.btn {
+  padding: 10px 15px;
+  background-color: $btn-primary-color;
+  border: none;
+  color: #FFF;
+  background-color: rgb(21, 21, 46);
+  font-family: GilroyBold, sans-serif;
+  font-weight: 600;
+  cursor: pointer;
+  text-transform: uppercase;
+  min-width: 140px;
+  min-height: 50px;
+}
+
+.btn:hover {
+  background-color: $btn-hover-color;
+}
+
+.btn[disabled] {
+  opacity: .5;
+  cursor: not-allowed;
+  background-color: $secondary-color;
+}
+
+.btn.active {
+  background-color: $btn-primary-color;
+  border: 1px solid $btn-active-color;
+  box-shadow: 0px 0 2px 0px #C0C0C0;
+}

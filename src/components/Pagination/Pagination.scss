@@ -1,0 +1,19 @@
+@import '../../scss/variables';
+
+.pagination_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pagination_item {
+  margin: 5px;
+  color: $dark-grey-color;
+  cursor: pointer;
+}
+
+.pagination_item-active {
+  font-family: GilroyBold, sans-serif;
+  color: #000;
+  cursor: default;
+}

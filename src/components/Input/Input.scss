@@ -1,0 +1,28 @@
+@import "../../scss/variables";
+
+.input-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.labels-wrapper {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 5px;
+}
+
+.input-label {
+  color: $dark-grey-color;
+  font-size: 14px;
+}
+
+.input {
+  box-sizing: border-box;
+  height: 40px;
+  width: 100%;
+  padding: 12px;
+  border: 1px solid $secondary-color;
+  border-radius: 4px;
+  font-size: 16px;
+}

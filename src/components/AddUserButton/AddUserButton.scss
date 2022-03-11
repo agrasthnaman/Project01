@@ -1,0 +1,49 @@
+@import "../../scss/variables";
+
+.addUser_button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .addUser_button {
+    position: relative;
+    height: 240px;
+    width: 240px;
+    box-shadow: rgba(0, 0, 0, 0.08) 2px 4px 8px;
+    cursor: pointer;
+    background: $primary-color;
+    margin-bottom: 24px;
+    border: 4px dashed $secondary-color;
+    outline: none;
+  }
+
+  .addUser_button:hover {
+    box-shadow: rgba(0, 0, 0, 0.12) 0 8px 8px;
+  }
+
+  .addUser_button-icon::before {
+    content: '';
+    position: absolute;
+    width: 50px;
+    height: 4px;
+    background-color: $secondary-color;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .addUser_button-icon::after {
+    content: '';
+    position: absolute;
+    width: 50px;
+    height: 4px;
+    background-color: $secondary-color;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%) rotate(90deg);
+  }
+}
+
+
+
+

@@ -1,0 +1,13 @@
+.modal_container {
+  position: absolute;
+}
+
+.usersCards_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding-top: 50px;
+  max-width: 980px;
+  min-height: 536px;
+}
